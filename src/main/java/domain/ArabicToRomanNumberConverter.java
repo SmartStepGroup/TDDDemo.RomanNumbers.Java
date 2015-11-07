@@ -1,3 +1,5 @@
+package domain;
+
 public class ArabicToRomanNumberConverter {
     ArabicToRomanDigitMap map = new ArabicToRomanDigitMap();
 
