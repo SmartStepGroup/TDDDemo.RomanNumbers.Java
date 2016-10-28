@@ -1,5 +1,8 @@
 package swing;
 
+import domain.ArabicToRomanNumberConverter;
+import viewModels.ArabicToRomanViewModel;
+
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
@@ -8,49 +11,10 @@ public class ArabicToRomanView {
     private JPanel panel;
     private JTextField textArabicNumber;
     private JButton buttonConvert;
-    private JLabel labelError;
     private JTextField textRomanNumber;
     private JTextArea textError;
 
-    public ArabicToRomanView() {
-        ArabicToRomanNumberConverter converter = new ArabicToRomanNumberConverter();
-
-        buttonConvert.addActionListener(e -> {
-            String romanNumber = converter.Convert(Integer.parseInt(textArabicNumber.getText()));
-            this.textRomanNumber.setText(romanNumber);
-        });
-        textArabicNumber.getDocument().addDocumentListener(new DocumentListener() {
-            @Override
-            public void insertUpdate(DocumentEvent e) {
-                validate();
-            }
-
-            @Override
-            public void removeUpdate(DocumentEvent e) {
-                validate();
-            }
-
-            @Override
-            public void changedUpdate(DocumentEvent e) {
-                validate();
-            }
-        });
-    }
-
-    private void validate() {
-        if (textArabicNumber.getText().matches("\\d+")) {
-            if (Integer.parseInt(textArabicNumber.getText()) >= 4000) {
-                textError.setText("Only numbers from interval [0...3999] are allowed");
-                buttonConvert.setEnabled(false);
-            } else {
-                textError.setText("");
-                buttonConvert.setEnabled(true);
-            }
-        } else {
-            textError.setText("Only digits are allowed");
-            buttonConvert.setEnabled(false);
-        }
-    }
+    ArabicToRomanViewModel viewModel;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("ArabicToRomanView");
@@ -61,7 +25,48 @@ public class ArabicToRomanView {
     }
 
     private void createUIComponents() {
+        viewModel = new ArabicToRomanViewModel();
+        textArabicNumber = new JTextField();
+        textRomanNumber = new JTextField();
         buttonConvert = new JButton();
-        buttonConvert.setEnabled(false);
+        textError = new JTextArea();
+
+        buttonConvert.addActionListener(e -> {
+            backBind();
+            viewModel.convert();
+            bind();
+        });
+
+        textArabicNumber.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                backBind();
+                bind();
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                backBind();
+                bind();
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                backBind();
+                bind();
+            }
+        });
+
+        bind();
+    }
+
+    private void backBind() {
+        viewModel.setArabicNumberText(textArabicNumber.getText());
+    }
+
+    private void bind() {
+        buttonConvert.setEnabled(viewModel.isConvertButtonEnabled());
+        textRomanNumber.setText(viewModel.getRomanNumberText());
+        textError.setText(viewModel.getErrorMessage());
     }
 }

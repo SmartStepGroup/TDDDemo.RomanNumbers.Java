@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArabicToRomanViewModelTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2016-10-28T17:43:56" hostname="Antons-Air.mts.local" time="0.06">
+  <properties/>
+  <testcase name="afterEnteringLargeArabicNumber_ConvertButtonIsDisabled" classname="ArabicToRomanViewModelTests" time="0.017"/>
+  <testcase name="afterEnteringNonDigitToArabicNumberText_ConvertButtonIsDisabled" classname="ArabicToRomanViewModelTests" time="0.003"/>
+  <testcase name="afterEnteringNonDigitToArabicNumberText_ErrorMessageIsShown" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="afterConvertingArabicNumberToRoman_RomanNumberIsDisplayed" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="afterEnteringNonDigitThenClearingToArabicNumberText_ConvertButtonIsEnabled" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="afterEnteringFirstDigit_ConvertButtonIsEnabled" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="byDefault_ConvertButtonIsDisabled" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="afterEnteringValidArabicNumber_ConvertButtonIsEnabled" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="afterEnteringNonDigitThenClearingToArabicNumberText_ErrorMessageIsHidden" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="afterEnteringNonDigitThenDigitToArabicNumberText_ErrorMessageIsHidden" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="afterClearingArabicNumberText_ConvertButtonIsDisabled" classname="ArabicToRomanViewModelTests" time="0.0"/>
+  <testcase name="byDefault_ErrorMessageIsEmpty" classname="ArabicToRomanViewModelTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

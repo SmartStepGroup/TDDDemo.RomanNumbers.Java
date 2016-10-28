@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WhenConvertArabicNumberToRoman" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-10-28T17:43:56" hostname="Antons-Air.mts.local" time="0.165">
+  <properties/>
+  <testcase name="Convert_6_To_VI" classname="WhenConvertArabicNumberToRoman" time="0.001"/>
+  <testcase name="Convert_2_To_II" classname="WhenConvertArabicNumberToRoman" time="0.001"/>
+  <testcase name="Convert_890_To_DCCCXC" classname="WhenConvertArabicNumberToRoman" time="0.004"/>
+  <testcase name="Convert_1999_To_MCMXCIX" classname="WhenConvertArabicNumberToRoman" time="0.004"/>
+  <testcase name="Convert_2015_To_MMXV" classname="WhenConvertArabicNumberToRoman" time="0.0"/>
+  <testcase name="Convert_1_To_I" classname="WhenConvertArabicNumberToRoman" time="0.0"/>
+  <testcase name="Convert_5_To_V" classname="WhenConvertArabicNumberToRoman" time="0.001"/>
+  <testcase name="Convert_3_To_III" classname="WhenConvertArabicNumberToRoman" time="0.0"/>
+  <testcase name="Convert_4_To_IV" classname="WhenConvertArabicNumberToRoman" time="0.001"/>
+  <testcase name="Convert_9_To_IX" classname="WhenConvertArabicNumberToRoman" time="0.0"/>
+  <testcase name="Convert_1800_To_MDCCC" classname="WhenConvertArabicNumberToRoman" time="0.001"/>
+  <testcase name="Convert_8_To_VIII" classname="WhenConvertArabicNumberToRoman" time="0.0"/>
+  <testcase name="Convert_0_To_EmptyString" classname="WhenConvertArabicNumberToRoman" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
