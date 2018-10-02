@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RomanNumbers.iml" filepath="$PROJECT_DIR$/RomanNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RomanNumbers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RomanNumbers_main.iml" group="RomanNumbers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RomanNumbers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RomanNumbers_test.iml" group="RomanNumbers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SSG-RomanNumbers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SSG-RomanNumbers_main.iml" group="RomanNumbers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SSG-RomanNumbers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SSG-RomanNumbers_test.iml" group="RomanNumbers" />
     </modules>
   </component>
 </project>
