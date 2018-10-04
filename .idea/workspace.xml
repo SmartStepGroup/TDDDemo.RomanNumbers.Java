@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/whenConvertArabicToRoman.java" line="27" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b238c4-4ec8-4bd4-a8ed-70201a2807bf" name="Default" comment="Create Arabic to Roman numbers converter with TDD demo">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/SSG-RomanNumbers_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/SSG-RomanNumbers_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swing/converterForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swing/converterForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e2b238c4-4ec8-4bd4-a8ed-70201a2807bf" name="Default" comment="Recreate form">
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/DigitsMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/whenConvertArabicToRoman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RomanNumbers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RomanNumbers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/ArabicToRomanNumberConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/ArabicToRomanNumberConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/converterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swing/converterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanConverterViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArabicToRomanConverterViewModelTests.java" beforeDir="false" />
     </list>
     <ignored path="RomanNumbers.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,31 +64,35 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="3" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="21" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="3" />
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="301" />
+          <entry key="dummy" value="35" />
+          <entry key="java" value="2258" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="301" />
+          <entry key="JAVA" value="2258" />
+          <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -98,77 +102,54 @@
     <favorites_list name="RomanNumbers" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/swing/converterForm.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/swing/converterForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5086#5087#0" expanded="true" />
-                <element signature="e#5114#5115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ArabicToRomanConverterViewModelTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRoman.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/whenConvertArabicToRoman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="344">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Convert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/DigitsMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="38" column="80" lean-forward="true" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ArabicToRomanViewModelTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanConverterViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -192,6 +173,9 @@
     <findStrings>
       <find>pane</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -423,7 +407,6 @@
         <option value="$PROJECT_DIR$/src/main/java/RomanNumberTokenizer.java" />
         <option value="$PROJECT_DIR$/src/test/java/RomanNumberTokenizerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RomanNumberConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Convert.java" />
         <option value="$PROJECT_DIR$/src/test/java/WhenConvertArabirNumberToRoman.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArabicToRomanNumberConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArabicToRomanDigitMap.java" />
@@ -443,10 +426,15 @@
         <option value="$PROJECT_DIR$/src/main/java/swing/ArabicToRomanViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.form" />
         <option value="$PROJECT_DIR$/src/test/java/ArabicToRomanViewModelTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.java" />
         <option value="$PROJECT_DIR$/src/main/java/swing/converterForm.form" />
         <option value="$PROJECT_DIR$/src/main/java/swing/converterForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/ArabicToRomanNumberConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Convert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/DigitsMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Convert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/whenConvertArabicToRoman.java" />
       </list>
     </option>
   </component>
@@ -464,7 +452,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -496,6 +484,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RomanNumbers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDDDemo.RomanNumbers.Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="swing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -512,18 +508,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="RomanNumbers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDDDemo.RomanNumbers.Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="261" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="232" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538501111828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538669591110" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Movies/Pluralsight - Angular 2 - First Look (Full Course)/Excersice files/angular-2-first-look/files/storyline-tracker" />
@@ -531,15 +534,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/swing" />
       <recent name="$PROJECT_DIR$/src/main/swing" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -554,7 +557,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.converterForm (1)">
+  <component name="RunManager" selected="JUnit.All in SSG-RomanNumbers_test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -762,6 +765,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="whenConvertArabicToRoman" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="SSG-RomanNumbers_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="whenConvertArabicToRoman" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="whenConvertArabicToRoman.Convert_9_to_IX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSG-RomanNumbers_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="whenConvertArabicToRoman" />
+      <option name="METHOD_NAME" value="Convert_9_to_IX" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -816,13 +842,16 @@
     <list>
       <item itemvalue="JUnit.All in SSG-RomanNumbers_test" />
       <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="Application.converterForm (1)" />
       <item itemvalue="Gradle.RomanNumbers [build]" />
       <item itemvalue="Gradle.RomanNumbers [test]" />
       <item itemvalue="JUnit.All in RomanNumbers_test" />
-      <item itemvalue="Application.converterForm (1)" />
+      <item itemvalue="JUnit.whenConvertArabicToRoman" />
+      <item itemvalue="JUnit.whenConvertArabicToRoman.Convert_9_to_IX" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.whenConvertArabicToRoman.Convert_9_to_IX" />
         <item itemvalue="Application.converterForm (1)" />
         <item itemvalue="Gradle.RomanNumbers [test]" />
         <item itemvalue="Gradle.RomanNumbers [build]" />
@@ -848,39 +877,46 @@
       <option name="project" value="LOCAL" />
       <updated>1445282009102</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Recreate form">
+      <created>1538501145764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538501145764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_in__RomanNumbers_ - 2015.11.06 at 19h 16m 52s.xml">
-      <configuration name="Tests in 'RomanNumbers'" configurationId="GradleRunConfiguration" />
+    <history-entry file="whenConvertArabicToRoman - 2018.10.04 at 09h 24m 51s.xml">
+      <configuration name="whenConvertArabicToRoman" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_in__RomanNumbers_ - 2015.11.06 at 20h 16m 22s.xml">
-      <configuration name="Tests in 'RomanNumbers'" configurationId="GradleRunConfiguration" />
+    <history-entry file="whenConvertArabicToRoman - 2018.10.04 at 09h 25m 51s.xml">
+      <configuration name="whenConvertArabicToRoman" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_in__RomanNumbers_ - 2015.11.14 at 10h 12m 09s.xml">
-      <configuration name="Tests in 'RomanNumbers'" configurationId="GradleRunConfiguration" />
+    <history-entry file="whenConvertArabicToRoman - 2018.10.04 at 09h 27m 17s.xml">
+      <configuration name="whenConvertArabicToRoman" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RomanNumbers_[test] - 2018.10.02 at 16h 49m 59s.xml">
-      <configuration name="RomanNumbers [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="whenConvertArabicToRoman_Convert_9_to_IX - 2018.10.04 at 09h 28m 19s.xml">
+      <configuration name="whenConvertArabicToRoman.Convert_9_to_IX" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_RomanNumbers_test - 2018.10.02 at 16h 50m 16s.xml">
-      <configuration name="All in RomanNumbers_test" configurationId="JUnit" />
+    <history-entry file="whenConvertArabicToRoman_Convert_9_to_IX - 2018.10.04 at 09h 34m 52s.xml">
+      <configuration name="whenConvertArabicToRoman.Convert_9_to_IX" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_in_'RomanNumbers' - 2018.10.02 at 20h 04m 45s.xml">
-      <configuration name="Tests in 'RomanNumbers'" configurationId="GradleRunConfiguration" />
+    <history-entry file="whenConvertArabicToRoman_Convert_9_to_IX - 2018.10.04 at 09h 35m 09s.xml">
+      <configuration name="whenConvertArabicToRoman.Convert_9_to_IX" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RomanNumbers_[test] - 2018.10.02 at 20h 15m 22s.xml">
-      <configuration name="RomanNumbers [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="whenConvertArabicToRoman - 2018.10.04 at 09h 36m 10s.xml">
+      <configuration name="whenConvertArabicToRoman" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SSG-RomanNumbers_test - 2018.10.02 at 20h 16m 02s.xml">
-      <configuration name="All in SSG-RomanNumbers_test" configurationId="JUnit" />
+    <history-entry file="whenConvertArabicToRoman - 2018.10.04 at 09h 39m 53s.xml">
+      <configuration name="whenConvertArabicToRoman" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RomanNumbers_[test] - 2018.10.02 at 20h 17m 48s.xml">
-      <configuration name="RomanNumbers [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="whenConvertArabicToRoman - 2018.10.04 at 09h 40m 13s.xml">
+      <configuration name="whenConvertArabicToRoman" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SSG-RomanNumbers_test - 2018.10.02 at 20h 18m 38s.xml">
-      <configuration name="All in SSG-RomanNumbers_test" configurationId="JUnit" />
+    <history-entry file="whenConvertArabicToRoman - 2018.10.04 at 09h 40m 36s.xml">
+      <configuration name="whenConvertArabicToRoman" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -893,10 +929,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22460657" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="2" weight="0.24964234" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Palette&#9;" order="4" />
@@ -904,23 +940,23 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32965517" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.27310926" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49713877" visible="true" weight="0.3669468" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39915967" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.27272728" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49713877" visible="true" weight="0.36746144" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39831698" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32965517" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.40616247" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30769232" />
       <window_info anchor="bottom" id="Application Servers" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5028612" side_tool="true" weight="0.26944444" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3627451" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.36185133" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.2932761" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.2932761" />
       <window_info anchor="right" id="Designer" order="6" />
       <window_info anchor="right" id="PlantUML" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3298969" />
@@ -978,7 +1014,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Create Arabic to Roman numbers converter with TDD demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Arabic to Roman numbers converter with TDD demo" />
+    <MESSAGE value="Recreate form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recreate form" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1005,57 +1042,38 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>digitsMap.getNextRomanDigit(romanNumber.charAt(i))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>romanNumber.charAt(i - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>romanNumber.substring(0, i - 2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Digit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.form">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.form" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/ArabicToRomanNumberConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/ArabicToRomanDigitMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/swing/converterForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swing/ArabicToRomanView.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanConverterViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="e#395#396#0" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
@@ -1063,35 +1081,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanViewModel.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ArabicToRomanConverterViewModelTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/swing/converterForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5086#5087#0" expanded="true" />
-            <element signature="e#5114#5115#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="initializer##0;class#converterForm#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ArabicToRomanConverterViewModelTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swing/converterForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ArabicToRomanViewModelTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
+        <state relative-caret-position="376">
           <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1099,12 +1113,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewModels/ArabicToRomanViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WhenConvertArabicNumberToRoman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Digit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/ArabicToRomanNumberConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/ArabicToRomanDigitMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="12" selection-end-line="14" />
+          <folding>
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/DigitsMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="38" column="80" lean-forward="true" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/whenConvertArabicToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -44,7 +44,8 @@ public class ArabicToRomanNumberConverter {
 
     private String replace2InterlacingNumbers(String romanNumber) {
         for (int i = 2; i < romanNumber.length(); i++) {
-            boolean contains2InterlacingDigits = romanNumber.charAt(i - 2) == romanNumber.charAt(i) &&
+            boolean contains2InterlacingDigits =
+                    romanNumber.charAt(i - 2) == romanNumber.charAt(i) &&
                     romanNumber.charAt(i - 1) != romanNumber.charAt(i);
             if (contains2InterlacingDigits) {
                 romanNumber = romanNumber.substring(0, i - 2) +
