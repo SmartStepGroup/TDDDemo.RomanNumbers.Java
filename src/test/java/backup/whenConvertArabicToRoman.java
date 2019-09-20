@@ -1,9 +1,11 @@
 package backup;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 public class whenConvertArabicToRoman {
     @Test
     public void convert_0_to_emptyString() {
