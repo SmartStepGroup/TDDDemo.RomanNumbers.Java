@@ -1,7 +1,7 @@
-package domain;
+package backup;
 
 public class ArabicToRomanNumberConverter {
-    ArabicToRomanDigitMap map = new ArabicToRomanDigitMap();
+    private ArabicToRomanDigitMap map = new ArabicToRomanDigitMap();
 
     public String Convert(int arabicNumber) {
         boolean noNumber = arabicNumber == 0;
@@ -15,16 +15,16 @@ public class ArabicToRomanNumberConverter {
     }
 
     private String getRoughRomanNumber(int arabicNumber) {
-        String romanNumber = "";
+        StringBuilder romanNumber = new StringBuilder();
 
         for (Digit digit : map) {
             while (arabicNumber >= digit.arabic) {
-                romanNumber += digit.roman;
+                romanNumber.append(digit.roman);
                 arabicNumber -= digit.arabic;
             }
         }
 
-        return romanNumber;
+        return romanNumber.toString();
     }
 
     private String replace4IdenticalNumbersInRow(String romanNumber) {

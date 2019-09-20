@@ -1,10 +1,10 @@
-package domain;
+package backup;
 
 public class Digit {
     Integer arabic;
     Character roman;
 
-    public Digit(Integer arabic, Character roman) {
+    Digit(Integer arabic, Character roman) {
         this.arabic = arabic;
         this.roman = roman;
     }

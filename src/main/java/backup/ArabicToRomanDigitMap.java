@@ -1,4 +1,4 @@
-package domain;
+package backup;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 public class ArabicToRomanDigitMap implements Iterable<Digit> {
     private ArrayList<Digit> map;
 
-    public ArabicToRomanDigitMap() {
+    ArabicToRomanDigitMap() {
         map = new ArrayList<>();
         map.add(new Digit(1000, 'M'));
         map.add(new Digit(500, 'D'));
@@ -19,7 +19,7 @@ public class ArabicToRomanDigitMap implements Iterable<Digit> {
         map.add(new Digit(1, 'I'));
     }
 
-    public Character getNextRomanNumber(Character romanNumber) {
+    Character getNextRomanNumber(Character romanNumber) {
         return map.get(getIndex(romanNumber) - 1).roman;
     }
 

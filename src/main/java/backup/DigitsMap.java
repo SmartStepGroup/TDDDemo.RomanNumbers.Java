@@ -1,4 +1,4 @@
-package domain;
+package backup;
 
 import javafx.util.Pair;
 
@@ -21,9 +21,11 @@ public class DigitsMap {
     }
 
     public List<Integer> getArabicDigits() {
-        List<Integer> list = digitsMap.stream().map(p -> p.getKey()).collect(Collectors.toList());
-        list.sort(Comparator.reverseOrder());
-        return list;
+        return digitsMap
+                .stream()
+                .map(Pair::getKey)
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList());
     }
 
     public Character getRomanDigits(int arabicDigit) {
